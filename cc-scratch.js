@@ -289,11 +289,11 @@ function createBlockPos(x, y, z, isRelative) {
     // R : Async reporter block 
     var descriptor = {
         blocks: [
-            ['w', '移动 %m.sixDirections', '移动', '向前'],
-            ['w', '转向 %m.rotateDirections', '转向', '向左'],
-            ['w', '传输至玩家', '传输'],
+            ['w', '移动 %m.sixDirections', 'move', '向前'],
+            ['w', '转向 %m.rotateDirections', 'turn', '向左'],
+            ['w', '传输至玩家', 'tpToPlayer'],
             ['w', 'Use or place item in inventory slot %n at %m.sixDirections', 'place', 1, 'forward'],
-            ['w', '毁掉%m.sixDirections', '毁掉', '向前'],
+            ['w', '毁掉%m.sixDirections', 'destroy', '向前'],
             ['w', 'Till %m.sixDirections', 'till', 'forward'],
             ['w', 'Attack %m.sixDirections', 'attack', 'forward'],
             ['w', 'Collect %s', 'collect', 'all'],
