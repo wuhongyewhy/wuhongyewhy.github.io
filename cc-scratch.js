@@ -327,7 +327,7 @@ function createBlockPos(x, y, z, isRelative) {
             ['w', 'Change weather to %m.weatherType', 'weather', 'clear']
         ],
         menus: {
-            sixDirections: ['forward', 'back', 'left', 'right', 'up', 'down'],
+            sixDirections: ['向前', '向后', '向左', '向右', '向上', '向下'],
             fourDirections: ['forward', 'back', 'left', 'right'],
             rotateDirections: ['left', 'right'],
             weatherType: ['clear', 'rain', 'thunder'],
