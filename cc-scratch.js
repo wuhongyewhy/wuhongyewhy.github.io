@@ -293,7 +293,7 @@ function createBlockPos(x, y, z, isRelative) {
             ['w', '转向 %m.rotateDirections', '转向', '向左'],
             ['w', '传输至玩家', '传输'],
             ['w', 'Use or place item in inventory slot %n at %m.sixDirections', 'place', 1, 'forward'],
-            ['w', 'Destroy %m.sixDirections', 'destroy', 'forward'],
+            ['w', '毁掉%m.sixDirections', '毁掉', '向前'],
             ['w', 'Till %m.sixDirections', 'till', 'forward'],
             ['w', 'Attack %m.sixDirections', 'attack', 'forward'],
             ['w', 'Collect %s', 'collect', 'all'],
