@@ -328,16 +328,16 @@ function createBlockPos(x, y, z, isRelative) {
         ],
         menus: {
             sixDirections: ['向前', '向后', '向左', '向右', '向上', '向下'],
-            fourDirections: ['forward', 'back', 'left', 'right'],
-            rotateDirections: ['left', 'right'],
-            weatherType: ['clear', 'rain', 'thunder'],
-            positionType: ['relative', 'absolute'],
-            timeType: ['day', 'night'],
+            fourDirections: ['向前', '向后', '向左', '向右'],
+            rotateDirections: ['向左', '向右'],
+            weatherType: ['晴朗', '下雨', '闪电'],
+            positionType: ['相对', '绝对'],
+            timeType: ['白天', '夜晚'],
             blocks: blocks,
             decorations: decorations,
             tools: tools,
             miscellaneous: miscellaneous,
-            speed: ['normal', 'fast']
+            speed: ['正常', '加速']
         }
     };
 
